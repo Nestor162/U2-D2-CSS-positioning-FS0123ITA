@@ -388,12 +388,12 @@ section h2 {
 }
 
 /* PageUp Button */
-.PgUp {
-  position: fixed;
-  bottom: 20px;
+.PgUp,
+.calendar,
+.social {
   right: 20px;
-  font-size: 3.5rem;
-  color: #f7555d;
+  position: fixed;
+  font-size: 2.5rem;
   background-color: rgb(255, 255, 255, 0.7);
   width: 75px;
   height: 75px;
@@ -401,12 +401,42 @@ section h2 {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.PgUp {
+  bottom: 20px;
+  color: #f7555d;
+}
+
+.calendar {
+  bottom: 110px;
+  color: #2f60be;
+}
+
+.social {
+  bottom: 200px;
+  color: #2f60be;
 }
 
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;
+  }
+
+  .PgUp {
+    bottom: 20px;
+  }
+
+  .calendar {
+    z-index: 2;
+    top: 110px;
+  }
+
+  .social {
+    z-index: 2;
+    top: 20px;
   }
 }
 
@@ -421,6 +451,20 @@ footer a {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .PgUp {
+    bottom: 20px;
+  }
+
+  .calendar {
+    z-index: 2;
+    top: 110px;
+  }
+
+  .social {
+    z-index: 2;
+    top: 20px;
   }
 }
 

@@ -375,6 +375,18 @@ header {
   z-index: 2;
 }
 
+/* 'Novita' */
+section {
+  position: relative;
+  height: 267px;
+}
+
+section h2 {
+  position: absolute;
+  top: -20px;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;

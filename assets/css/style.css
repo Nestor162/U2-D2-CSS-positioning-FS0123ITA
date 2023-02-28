@@ -420,6 +420,18 @@ section h2 {
   color: #2f60be;
 }
 
+.fa-tag {
+  position: absolute;
+  font-size: 4rem;
+  right: 15px;
+  top: 15px;
+  opacity: 0.1;
+}
+
+aside div {
+  position: relative;
+}
+
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;

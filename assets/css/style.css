@@ -345,6 +345,7 @@ footer {
   font-size: 1.2rem;
 }
 
+/* Underline */
 .imgLeft {
   float: left;
 }
@@ -365,6 +366,13 @@ footer {
 h1 {
   position: relative;
   z-index: 1;
+}
+
+/* Sticky Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 @media screen and (min-width: 800px) {

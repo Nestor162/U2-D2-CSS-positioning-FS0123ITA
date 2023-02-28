@@ -387,6 +387,23 @@ section h2 {
   text-transform: uppercase;
 }
 
+/* PageUp Button */
+.PgUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 3.5rem;
+  color: #f7555d;
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;
